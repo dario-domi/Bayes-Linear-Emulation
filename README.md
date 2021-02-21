@@ -6,7 +6,7 @@ a simulator, modelling the dynamics of a complex physical system when the system
 
 An **emulator** is a fast statistical surrogate of f: once the value of f is observed at a small number of inputs
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
-the emulator provides a prediction of f(x) at any other input x, together with a measure of uncertainty of the prediction.
+the emulator provides a prediction of f(x) at any other input x, associating with the prediction a measure of its uncertainty.
 
 
 
