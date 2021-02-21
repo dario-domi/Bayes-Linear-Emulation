@@ -1,6 +1,7 @@
 ### DESCRIPTION
 #
-# This function trains a Bayes Linear emulator of a computer simulator f, based on observed outputs y=(y1,...,yn) at n design points. Emulation (ie, outputs prediction) is carried out at N Test points. The emulator form is based on the following model:
+# This function trains a Bayes Linear emulator of a computer simulator f, based on observed outputs y=(y1,...,yn) at n design points. 
+# Emulation (ie, outputs prediction) is carried out at N Test points. The emulator form is based on the following model:
 #
 # f(x) = regression_term(x_A) + eta(x_A) + nugget_term(x),
 #
