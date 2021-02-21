@@ -1,2 +1,2 @@
 # Bayes-Linear-Emulation
-Freely available code to carry out Bayes Linear emulation
+Downloadable code to carry out Bayes Linear emulation
