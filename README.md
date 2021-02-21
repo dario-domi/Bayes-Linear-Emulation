@@ -18,7 +18,7 @@ the associated observed values
 <img src="http://latex.codecogs.com/svg.latex?f(x_1),&space;\dots,&space;f(x_n)" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
 and the set of test inputs at which the emulator prediction is requested.
 
-The function has several optional arguments, which allow to specify *e.g.* regression terms, correlation lengths, prior variance and nugget, etc. If any is not provided, a default choice is made. The script `Emulation_Example.R` illustrates use of the function on a toy problem, with both default and tailored choices. Plots illustrating emulator performance are below.
+The function has several optional arguments, which allow to specify *e.g.* regression terms, correlation lengths, prior variance and nugget, etc. If any is not provided, a default choice is made. The script `Emulation_Example.R` illustrates use of the function on a toy problem, with both default and tailored choices: Plots of the emulator performance are below.
 
 # More Details on the Emulator and Meaning of all Optional Arguments
 
