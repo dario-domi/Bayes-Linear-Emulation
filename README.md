@@ -1,6 +1,8 @@
 # Short Description
 This repository provides downloadable R code to train a Bayes Linear emulator of a complex computer model.
 
+## Repository Content
+
 ## What is an Emulator?
 Suppose to have a function f expensive to evaluate: for example, f(x) is the output of 
 a simulator, modelling the dynamics of a complex physical system when the system parameters take the values specified by x (a vector). 
