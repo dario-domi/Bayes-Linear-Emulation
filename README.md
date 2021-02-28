@@ -5,7 +5,7 @@ This repository provides downloadable R code to train a Bayes Linear Emulator of
 Only the first file is needed for you to train your own emulators using the provided code. The other two files are however key to give context to Bayes Linear Emulation (if you are new to that) and explain how to use the provided code.
 * `Emulation.R`: Script defining the function `BL.Emul`, which builds a Bayes Linear Emulator of an unknown function f. It will have to be sourced in your R session.
 * `Documentation.pdf`: Explains the setting of Bayes Linear Emulation and provides details about the arguments of `BL.Emul`. Read this!
-* `Emulation_Example.R`: This script steps you through the process of building two emulators of a function f, in a 2D toy example, using the provided `BL.Emul`. One of the emulators is built by exploiting defaults of all optional arguments of `BL.Emul`, the other makes instead more tailored choices. The script is densely commented.
+* `Emulation_Example.R`: This script steps you through the process of building an emulator of a function f over a 2D domain, using `BL.Emul`. Two emulators of the same function are built: one leaves all optional arguments of `BL.Emul` to their defaults, the other makes more tailored choices. The script is densely commented.
 
 ## What is an Emulator?
 Suppose to have a function f expensive to evaluate: for example, f(x) is the output of 
