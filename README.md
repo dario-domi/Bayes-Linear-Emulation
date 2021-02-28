@@ -2,7 +2,7 @@
 This repository provides downloadable R code to train a Bayes Linear Emulator of a complex computer model.
 
 ## Main Content
-Only the first file is needed for you to train your own emulators using the provided code. The other two files are however key to give context to Bayes Linear Emulation (if you are new to that) and explain how to use the provided code.
+Only the first file is needed for you to train your own emulators using the provided code. The other two files are however key to give context to Bayes Linear Emulation (if you are new to that) and to illustrate how to use the provided code.
 * **`Emulation.R`**: Defines the function `BL.Emul`, which builds a Bayes Linear Emulator of an unknown function f. It will have to be sourced in your R session.
 * **`Documentation.pdf`**: Explains the setting of Bayes Linear Emulation and provides details about the arguments of `BL.Emul`. Read this!
 * **`Emulation_Example.R`**: This script steps you through the process of building an emulator of a function f over a 2D domain, using `BL.Emul`. Two emulators of the same function are built: one leaves all optional arguments of `BL.Emul` to their defaults, the other makes more tailored choices. The script is densely commented.
@@ -27,12 +27,13 @@ and the set of test inputs at which the emulator prediction is requested.
 The function has several optional arguments, which allow to specify *e.g.* regression terms, correlation lengths, prior variance, nugget, etc. If any is not provided, a default choice is made. The script `Emulation_Example.R` illustrates use of the function on a toy problem, with both default and tailored choices: Plots of the emulator performance are below.
 
 # More Details on the Emulator and Meaning of all Optional Arguments
-
+<!--
 An overview of the role of each optional argument is provided inside 
+-->
+This part of the README is being written, please be patient a few days (as of 01/03/21) :)
 
-
-
+<!--
 ## Computational Note
 but outperforms a "more natural" nested-loop structure by orders of magnitude. The  
-
 # A bit more detail
+-->
