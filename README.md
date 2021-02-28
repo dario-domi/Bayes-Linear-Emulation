@@ -1,7 +1,7 @@
 # Repository Aim and Description
 This repository provides downloadable R code to train a Bayes Linear emulator (BLE) of a complex computer model.
 
-## Important Repository Content
+## Main Content
 * `Emulation.R`: Script defining the function `BL.Emul`, which builds a Bayes Linear Emulator of an unknown function f. It will have to be sourced in your R session.
 * `Documentation.pdf`: Explains the setting of Bayes Linear Emulation and provides details about the arguments of `BL.Emul`. Read this!
 * `Emulation_Example.R`: This script steps you through the process of building two emulators of a function f, in a 2D toy example. One of the emulators is built by exploiting defaults of all optional arguments of `BL.Emul`, the other makes instead more tailored choices.
