@@ -1,4 +1,4 @@
-# Short Description
+# Repository Aim and Description
 This repository provides downloadable R code to train a Bayes Linear emulator (BLE) of a complex computer model.
 
 ## Important Repository Content
