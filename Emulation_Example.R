@@ -1,4 +1,4 @@
-source('CorrFun.R')
+source('Corr_Fun.R')
 source("Emulation.R")
 library("plot3D")
 library("randtoolbox")
