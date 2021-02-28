@@ -1,7 +1,10 @@
 # Short Description
-This repository provides downloadable R code to train a Bayes Linear emulator of a complex computer model.
+This repository provides downloadable R code to train a Bayes Linear emulator (BLE) of a complex computer model.
 
-## Repository Content
+## Important Repository Content
+* `Emulation.R`: Script defining the function `BL.Emul`, which builds a Bayes Linear Emulator of an unknown function f. It will have to be sourced in your R session.
+* `Documentation.pdf`: Explains the setting of Bayes Linear Emulation and provides details about the arguments of `BL.Emul`. Read this!
+* `Emulation_Example.R`: This script steps you through the process of building two emulators of a function f, in a 2D toy example. One of the emulators is built by exploiting defaults of all optional arguments of `BL.Emul`, the other makes instead more tailored choices.
 
 ## What is an Emulator?
 Suppose to have a function f expensive to evaluate: for example, f(x) is the output of 
@@ -12,7 +15,7 @@ An **emulator** is a fast statistical surrogate of f: once the value of f is obs
 the emulator provides a prediction of f(x) at any other input x, associating with the prediction a measure of its uncertainty. 
 The emulator implemented in this repository relies on Bayes Linear updates to accomplish the task.
 
-## How to Train Your Own Using the Provided Code
+## How to Use the Provided Code to Train Your Own Emulator
 Download the scripts `emulation.R` and `corr_function.R` and `source` them in `R`. The function you need to use is `BL.Emul()`. 
 You will need to provide the set of design points
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
