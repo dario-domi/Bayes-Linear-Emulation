@@ -32,7 +32,7 @@ An overview of the role of each optional argument is provided inside
 -->
 This part of the README is being written, please be patient a few days (as of 01/03/21) :)
 
-<img width="400" src="https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Pictures/Emul_Var.png">
+<img width="500" src="https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Pictures/Emul_Var.png">
 
 <!--
 ## Computational Note
