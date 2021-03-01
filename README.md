@@ -32,6 +32,8 @@ An overview of the role of each optional argument is provided inside
 -->
 This part of the README is being written, please be patient a few days (as of 01/03/21) :)
 
+![alt text](https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Pictures/Emul_Var.pdf?raw=true)
+
 <!--
 ## Computational Note
 but outperforms a "more natural" nested-loop structure by orders of magnitude. The  
