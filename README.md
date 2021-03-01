@@ -17,7 +17,7 @@ the emulator provides a prediction of f(x) at any other input x, associating wit
 The emulator implemented in this repository relies on Bayes Linear updates to accomplish the task.
 
 ## How to Use the Provided Code to Train Your Own Emulator
-Download the scripts `Emulation.R` and `Corr_fun.R` and `source` them in `R`. The function you need to use is `BL.Emul()`. 
+Download the scripts `Emulation.R` and `Corr_fun.R`, hence `source` them in `R`. The function you need to use is `BL.Emul()`. 
 You will need to provide the set of design points
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
 the associated observed values 
