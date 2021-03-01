@@ -1,6 +1,7 @@
 ### DESCRIPTION
 #
-# This function trains a Bayes Linear emulator of a computer simulator f, based on observed outputs y=(y1,...,yn) at n design points. Emulation (ie, output prediction) is carried out at N Test points. 
+# This function trains a Bayes Linear emulator of a computer simulator f, based on observed outputs y=(y1,...,yn) at n design points. 
+# Emulation (ie, output prediction) is carried out at N Test points. 
 # Full details on the meaning of the function's arguments available at: 
 # https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Bayes_Linear_Emulation.pdf
 #
