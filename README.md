@@ -13,7 +13,7 @@ a simulator, modelling the dynamics of a complex physical system when the system
 
 An **emulator** is a fast statistical surrogate of f: once the value of f is observed at a small number of inputs
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
-the emulator provides a prediction of f(x) at any other input x, associating with the prediction a measure of its uncertainty. 
+the emulator provides a prediction of f(x) at any other input x, quantifying the uncertainty associated with the prediction. 
 The emulator implemented in this repository relies on Bayes Linear updates to accomplish the task.
 
 ## How to Use the Provided Code to Train Your Own Emulator
