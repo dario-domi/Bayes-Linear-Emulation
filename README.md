@@ -8,7 +8,7 @@ a simulator, modelling the dynamics of a complex physical system when the system
 An **emulator** is a fast statistical surrogate of f: once the value of f is observed at a small number of inputs
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
 the emulator provides a prediction of f(x) at any other input x, quantifying the uncertainty associated with the prediction. 
-The emulator implemented in this repository relies on Bayes Linear updates to accomplish the task.
+The emulator implemented in this repository relies on Bayes Linear updates to accomplish the task. More details at the end of this README or in the pdf attached with the repo :)
 
 ## Main Files
 You only need the first of the following three files (plus _Corr_Fun.R_ ) to train your own emulators using the provided code. The other two files are key to give context to Bayes Linear Emulation (if you are new to that) and to illustrate how to use the provided code.
