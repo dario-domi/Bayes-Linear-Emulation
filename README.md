@@ -17,7 +17,11 @@ You only need the first of the following three files to train your own emulators
 * **`Emulation_Example.R`**: This R script steps you through the process of building emulators using `BL.Emul`. Two emulators of the same function _f_ over a 2D domain are built and compared: one leaves all optional arguments of `BL.Emul` to their defaults, the other makes more tailored choices. The script is densely commented.
 
 ## How to Use the Provided Code to Train Your Own Emulator
-In your R session type `source("Emulation.R")`. The function you need to use is `BL.Emul()`. 
+1. Download the repo: Code -> Download ZIP *(or type "git clone https://github.com/dario-domi/Bayes-Linear-Emulation.git" from terminal)*
+2. Copy the file Emulation.R into the folder you launch R from.
+3. Type `source("Emulation.R")` in your R session.
+
+The function you need to use is `BL.Emul()`. 
 You will need to provide the set of design points
 <img src="http://latex.codecogs.com/svg.latex?x_1,&space;\dots,&space;x_n" title="http://latex.codecogs.com/svg.latex?x_1, \dots, x_n" />,
 the associated observed values 
