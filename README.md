@@ -34,7 +34,7 @@ The function has several optional arguments, which allow to specify *e.g.* regre
 <!--
 An overview of the role of each optional argument is provided inside 
 -->
-This part of the README is being written, please be patient a few days (as of 20/10/21) :)
+This part of the README is being written, please be patient a few days (as of 13/11/21) :)
 
 <img width="500" src="https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Pictures/Emul_Var.png">
 <img width="500" src="https://github.com/dario-domi/Bayes-Linear-Emulation/blob/main/Pictures/Function_f.png">
